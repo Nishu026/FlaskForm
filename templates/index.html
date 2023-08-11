@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask-Form</title>
+    <link rel="stylesheet" href="/static/CSS/signupstyle.css">
+</head>
+
+<body>
+    <form action="" method="POST">  
+        <p class="name">Nushmush Form</p>
+            <div class="container">
+                <p class="input">
+                    {{form.name.label}}
+                    {{form.name(size=32)}}
+                </p><br>
+                <p class="input">
+                    {{form.email.label}}
+                    {{form.email(size=32)}}
+                </p><br>
+                <p>
+                    {{form.submit(class="signupbtn")}}
+                </p>
+            </div>       
+    </form>
+</body>
+</html>

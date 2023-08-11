@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("/static/CSS/flower.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.name{
+    position:absolute;
+    top: 20%;
+    left:8%;
+    color: #ffffff;
+    font-weight: 10px;
+    font-size: 30px;   
+}
+
+.container{
+    box-sizing: border-box;
+    position: relative;
+    top:200px;
+    left: 7%;
+    width: 350px;
+    height: 210px;
+    border: double 3px #fdfdfd;; 
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 15px;
+    /* background-color: rgb(157, 221, 248); */
+}
+
+.container:hover{
+    background: #00050a48;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 7 px 0 #47474c,0 10px 10px 0 #47474c;
+}
+
+.input{
+    outline:2px #ffffff;
+    border: 1px solid #fbfbfb;
+    border-radius: 10px;
+    margin: 8px 5px;
+    padding: 6px;
+    font-style: bold;
+    font-size: medium;
+    color: #f2f2f7;
+} 
+
+.signupbtn{
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 30%;
+    background: rgb(190, 192, 72);
+    border: 3px solid rgb(1, 1, 1);
+    border-radius: 10px;
+    outline: none;
+    margin: 10px 5px;
+    /* font-style: normal; */
+    font-weight: 10px;
+    color: rgb(13, 12, 17); 
+} 
