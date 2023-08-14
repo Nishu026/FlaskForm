@@ -6,23 +6,24 @@
     <title>Flask-Form</title>
     <link rel="stylesheet" href="/static/CSS/signupstyle.css">
 </head>
-
 <body>
     <form action="" method="POST">  
         <p class="name">Nushmush Form</p>
+        <center>
             <div class="container">
+                <p class="signin">Sign in</p><br>
                 <p class="input">
-                    {{form.name.label}}
+                    {{form.name.label()}}
                     {{form.name(size=32)}}
                 </p><br>
                 <p class="input">
-                    {{form.email.label}}
+                    {{form.email.label()}}
                     {{form.email(size=32)}}
                 </p><br>
                 <p>
                     {{form.submit(class="signupbtn")}}
-                </p>
-            </div>       
+                </p>     
+        </center>    
     </form>
 </body>
 </html>
