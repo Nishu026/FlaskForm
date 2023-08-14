@@ -3,63 +3,79 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
-    background-image: url("/static/CSS/flower.jpg");
+    background-image: url("/static/CSS/bluee.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .name{
     position:absolute;
     top: 20%;
     left:8%;
     color: #ffffff;
-    font-weight: 10px;
-    font-size: 30px;   
+    font-weight: 50px;
+    font-size: 60px;   
+    text-decoration-line: underline;
+    text-decoration-thickness:3px;
 }
 
 .container{
     box-sizing: border-box;
     position: relative;
-    top:200px;
+    top:230px;
     left: 7%;
-    width: 350px;
-    height: 210px;
+    width: 380px;
+    height: 240px;
     border: double 3px #fdfdfd;; 
-    border-radius: 30px;
+    border-radius: 20px;
     padding: 10px;
     font-size: 15px;
-    /* background-color: rgb(157, 221, 248); */
+    background-color: rgb(255, 255, 255);
 }
 
 .container:hover{
     background: #00050a48;
     border: none;
-    border-radius: 30px;
-    box-shadow: 0 7 px 0 #47474c,0 10px 10px 0 #47474c;
+    border-radius: 20px;
+    
 }
 
 .input{
-    outline:2px #ffffff;
-    border: 1px solid #fbfbfb;
-    border-radius: 10px;
+    position: relative;
+    top: 8%;
+    left: 1%;
+    height: 10px;
+    padding: 20px; 
     margin: 8px 5px;
     padding: 6px;
     font-style: bold;
     font-size: medium;
-    color: #f2f2f7;
+    color: #060606;
 } 
 
 .signupbtn{
-    width: 100px;
-    height: 30px;
-    position: relative;
-    left: 30%;
-    background: rgb(190, 192, 72);
-    border: 3px solid rgb(1, 1, 1);
+    width: 90px;
+    height: 40px;
+    position: absolute;
+    bottom: 15%;
+    left: 9%;
+    background: rgb(41, 176, 45);
+    border: 2px solid rgb(252, 252, 252);
     border-radius: 10px;
     outline: none;
     margin: 10px 5px;
     /* font-style: normal; */
     font-weight: 10px;
-    color: rgb(13, 12, 17); 
+    color: rgb(245, 245, 248); 
 } 
+.signin{
+    position:absolute;
+    top: 5%;
+    left:12%;
+    color: #0b0b0b;
+    font-weight: 30px;
+    font-size: 20px;
+    font-style:normal; 
+}
